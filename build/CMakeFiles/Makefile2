@@ -58,6 +58,7 @@ all: rokae_ros_package/rokae_description/all
 all: rokae_ros_package/rokae_gazebo/all
 all: rokae_ros_package/rokae_xMateER7p_moveit_config/all
 all: rokae_ros_package/rokae_msgs/all
+all: rokae_xmatepro7/xmatepro7_calib_moveit_config/all
 all: rokae_xmatepro7/xmatepro7_description/all
 all: rokae_xmatepro7/xmatepro7_moveit_config/all
 all: rokae_xmatepro7/xmatepro7_startup/all
@@ -73,6 +74,7 @@ preinstall: rokae_ros_package/rokae_description/preinstall
 preinstall: rokae_ros_package/rokae_gazebo/preinstall
 preinstall: rokae_ros_package/rokae_xMateER7p_moveit_config/preinstall
 preinstall: rokae_ros_package/rokae_msgs/preinstall
+preinstall: rokae_xmatepro7/xmatepro7_calib_moveit_config/preinstall
 preinstall: rokae_xmatepro7/xmatepro7_description/preinstall
 preinstall: rokae_xmatepro7/xmatepro7_moveit_config/preinstall
 preinstall: rokae_xmatepro7/xmatepro7_startup/preinstall
@@ -93,6 +95,7 @@ clean: rokae_ros_package/rokae_description/clean
 clean: rokae_ros_package/rokae_gazebo/clean
 clean: rokae_ros_package/rokae_xMateER7p_moveit_config/clean
 clean: rokae_ros_package/rokae_msgs/clean
+clean: rokae_xmatepro7/xmatepro7_calib_moveit_config/clean
 clean: rokae_xmatepro7/xmatepro7_description/clean
 clean: rokae_xmatepro7/xmatepro7_moveit_config/clean
 clean: rokae_xmatepro7/xmatepro7_startup/clean
@@ -428,6 +431,24 @@ rokae_ros_package/rokae_xMateER7p_moveit_config/preinstall:
 rokae_ros_package/rokae_xMateER7p_moveit_config/clean:
 
 .PHONY : rokae_ros_package/rokae_xMateER7p_moveit_config/clean
+
+#=============================================================================
+# Directory level rules for directory rokae_xmatepro7/xmatepro7_calib_moveit_config
+
+# Recursive "all" directory target.
+rokae_xmatepro7/xmatepro7_calib_moveit_config/all:
+
+.PHONY : rokae_xmatepro7/xmatepro7_calib_moveit_config/all
+
+# Recursive "preinstall" directory target.
+rokae_xmatepro7/xmatepro7_calib_moveit_config/preinstall:
+
+.PHONY : rokae_xmatepro7/xmatepro7_calib_moveit_config/preinstall
+
+# Recursive "clean" directory target.
+rokae_xmatepro7/xmatepro7_calib_moveit_config/clean:
+
+.PHONY : rokae_xmatepro7/xmatepro7_calib_moveit_config/clean
 
 #=============================================================================
 # Directory level rules for directory rokae_xmatepro7/xmatepro7_description

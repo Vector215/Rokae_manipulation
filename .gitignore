@@ -1,1 +1,5 @@
-build/
+build/*
+devel/*
+install/*
+src/rokae_xmatepro7/_rokae_log_/*
+src/rokae_xmatepro7/logs/*

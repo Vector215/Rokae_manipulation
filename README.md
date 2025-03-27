@@ -1,19 +1,24 @@
 # Rokae_manipulation
-a repo for roake_xmatepro7 robot manipulation based on rokae_imitation and moveit
+A repo for roake_xmatepro7 robot manipulation based on [rokae_imitation](https://github.com/destroy314/rokae_imitation) and moveit!
 
-1.首先安装对应版本的ros组件
-编译
+基于络石机械臂的实时控制规划与手眼标定
+
+## Usage 使用
+详情请参考文档 [USAGE.md](USAGE.md)
+
+
+## Installation 环境配置与安装
+
++ 首先安装对应版本的ros组件
 ```
 rm -rf build/*
 catkin_make clean
 catkin_make
 ```
-2.安装rokae_imitation并编译
++ 安装 `rokae_imitation` 并编译
 ```
 git clone https://github.com/destroy314/rokae_imitation.git
 cd build
 cmake ..
 make
 ```
-进入 src/rokae_xmatepro7/xmatepro7_moveit_config
-启动流程参考start.txt

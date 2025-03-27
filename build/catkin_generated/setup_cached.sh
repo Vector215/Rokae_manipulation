@@ -7,10 +7,6 @@
 # new environment variables
 
 # modified environment variables
-export CMAKE_PREFIX_PATH="/home/icrlab/rokae_ws/devel:$CMAKE_PREFIX_PATH"
-export LD_LIBRARY_PATH="/home/icrlab/rokae_ws/devel/lib:$LD_LIBRARY_PATH"
-export PKG_CONFIG_PATH="/home/icrlab/rokae_ws/devel/lib/pkgconfig:$PKG_CONFIG_PATH"
+export LD_LIBRARY_PATH='/home/icrlab/rokae_ws/devel/lib:/opt/ros/noetic/lib:/opt/ros/noetic/lib/x86_64-linux-gnu:/usr/local/cuda-12.8/lib64:/usr/local/cuda-12.8/extras/CUPTI/lib64'
+export PATH='/opt/ros/noetic/bin:/usr/local/cuda-12.8/bin:/home/icrlab/miniforge3/bin:/home/icrlab/miniforge3/condabin:/home/icrlab/.local/bin:/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin:/usr/games:/usr/local/games:/snap/bin'
 export PWD='/home/icrlab/rokae_ws/build'
-export PYTHONPATH="/home/icrlab/rokae_ws/devel/lib/python3/dist-packages:$PYTHONPATH"
-export ROSLISP_PACKAGE_DIRECTORIES='/home/icrlab/rokae_ws/devel/share/common-lisp'
-export ROS_PACKAGE_PATH="/home/vector/workspace/rokae_ws/src:/home/icrlab/rokae_ws/src:$ROS_PACKAGE_PATH"

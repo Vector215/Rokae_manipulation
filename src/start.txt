@@ -6,14 +6,16 @@ sudo ./all_control joint_pose
 
 2.
 source ~/.bashrc
-roslaunch xmatepro7_moveit_config demo.launch
+roslaunch xmatepro7_calib_moveit_config demo.launch
 
 3.
 source ~/.bashrc
+mamba activate ros
 cd ~/rokae_ws/src/rokae_xmatepro7/xmatepro7_moveit_config/scripts
 python3 ros_pub.py
 
 4.
 source ~/.bashrc
+mamba activate ros
 cd ~/rokae_ws/src/rokae_xmatepro7/xmatepro7_moveit_config/scripts
-python3 demo.py
+python3 calibration.py
